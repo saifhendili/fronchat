@@ -3,6 +3,13 @@ import random
 import time
 import requests
 import json
+st.markdown("""
+    <style>
+        ._profileContainer_gzau3_53 {
+            display: none !important;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 # Initialize session ID
 if "session_id" not in st.session_state:
